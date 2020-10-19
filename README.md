@@ -49,7 +49,8 @@ Also, some columns either had a lot of NaN values or did not add any value to ou
 ### ERD <a name="erd"></a>
 
 <sub><sup>[Go back to the table of contents](#toc)</sub></sup>
-![ERD](Images\SQL_SCHEMA_DIAGRAM.png)
+![ERD](Images/SQL_SCHEMA_DIAGRAM.png)
+
 Use http://www.quickdatabasediagrams.com to define ERD of tables.
 <br>
 
