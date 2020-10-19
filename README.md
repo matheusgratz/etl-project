@@ -20,20 +20,20 @@ We've used a Kaggle dataset to perform this task. In this case, we choose a [F1 
 
 The dataset has multiple files:
 * <strong>circuits.csv</strong>
+* <strong>races.csv</strong>
+* <strong>results.csv</strong>
+* <strong>drivers.csv</strong>
 * constructor_results.csv
 * constructor_standings.csv
 * constructors.csv
 * driver_standings.csv
-* <strong>drivers.csv</strong>
 * lap_times.csv
 * pit_stops.csv
 * qualifying.csv
-* <strong>races.csv</strong>
-* <strong>results.csv</strong>
 * seasons.csv
 * status.csv
 
-From the 13 files, we've decided to use 4 files to define and execute the ETL process. Those files are highlighted in yellow in the previous list presented.
+From the 13 files, we've decided to use 4 files to define and execute the ETL process. Those files are marked in bold in the previous list presented.
 
 The data selection was based on the questions that we want to answer, as below:
 1. What's the distribution of drivers based on their nationality?
