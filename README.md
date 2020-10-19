@@ -19,17 +19,17 @@ Table of contents <a name="toc"></a>
 We've used a Kaggle dataset to perform this task. In this case, we choose a [F1 race data from 1950 to 2020](https://www.kaggle.com/rohanrao/formula-1-world-championship-1950-2020).
 
 The dataset has multiple files:
-* <span style="background-color:#FFFF00">circuits.csv</span>
+* <strong>circuits.csv</strong>
 * constructor_results.csv
 * constructor_standings.csv
 * constructors.csv
 * driver_standings.csv
-* <span style="background-color:#FFFF00">drivers.csv</span>
+* <strong>drivers.csv</strong>
 * lap_times.csv
 * pit_stops.csv
 * qualifying.csv
-* <span style="background-color:#FFFF00">races.csv</span>
-* <span style="background-color:#FFFF00">results.csv</span>
+* <strong>races.csv</strong>
+* <strong>results.csv</strong>
 * seasons.csv
 * status.csv
 
