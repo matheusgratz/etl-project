@@ -19,21 +19,21 @@ Table of contents <a name="toc"></a>
 We've used a Kaggle dataset to perform this task. In this case, we choose a [F1 race data from 1950 to 2020](https://www.kaggle.com/rohanrao/formula-1-world-championship-1950-2020).
 
 The dataset has multiple files:
-* <span style="background-color:#D3D3D3">circuits.csv</span>
+* <span style="background-color:#FFFF00">circuits.csv</span>
 * constructor_results.csv
 * constructor_standings.csv
 * constructors.csv
 * driver_standings.csv
-* <span style="background-color:#D3D3D3">drivers.csv</span>
+* <span style="background-color:#FFFF00">drivers.csv</span>
 * lap_times.csv
 * pit_stops.csv
 * qualifying.csv
-* <span style="background-color:#D3D3D3">races.csv</span>
-* <span style="background-color:#D3D3D3">results.csv</span>
+* <span style="background-color:#FFFF00">races.csv</span>
+* <span style="background-color:#FFFF00">results.csv</span>
 * seasons.csv
 * status.csv
 
-From the 13 files, we've decided to use 4 files to define and execute the ETL process. Those files are highlighted in gray in the previous list presented.
+From the 13 files, we've decided to use 4 files to define and execute the ETL process. Those files are highlighted in yellow in the previous list presented.
 
 The data selection was based on the questions that we want to answer, as below:
 1. What's the distribution of drivers based on their nationality?
@@ -49,9 +49,11 @@ Also, some columns either had a lot of NaN values or did not add any value to ou
 ### ERD <a name="erd"></a>
 
 <sub><sup>[Go back to the table of contents](#toc)</sub></sup>
-
+![ERD](Images\SQL_SCHEMA_DIAGRAM.png)
 Use http://www.quickdatabasediagrams.com to define ERD of tables.
 <br>
+
+
 In order to replicate the same relationships, you can use the code as follows:
 
 ~~~sql
